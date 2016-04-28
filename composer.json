@@ -3,6 +3,7 @@
   "description": "interfaces for the chilimatic-framework",
   "type": "interfaces",
   "license": "MIT",
+  "version": "1.0.0"
   "authors": [
       {
           "name": "Jakob Oberhummer",
