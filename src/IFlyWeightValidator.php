@@ -15,12 +15,12 @@ interface IFlyWeightValidator
      *
      * @return bool
      */
-    public function __invoke($value);
+    public function __invoke($value) : bool;
 
     /**
      * @param mixed $value
      *
      * @return bool
      */
-    public function validate($value);
+    public function validate($value) : bool;
 }

@@ -14,7 +14,7 @@ interface IFlyWeightTransformer
      *
      * @return string
      */
-    public function transform(string $content, $options = []);
+    public function transform($content, $options = []);
 
     /**
      * @param string $content
@@ -22,5 +22,5 @@ interface IFlyWeightTransformer
      *
      * @return string
      */
-    public function __invoke(string $content, $options = []);
+    public function __invoke($content, $options = []);
 }
