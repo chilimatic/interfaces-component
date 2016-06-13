@@ -13,7 +13,7 @@ Interface IFactoryOptions {
      *
      * @return mixed
      */
-    public function make($name, $options);
+    public function make(string $name, $options);
 
 
     /**
@@ -22,5 +22,5 @@ Interface IFactoryOptions {
      *
      * @return mixed
      */
-    public function __invoke($name, $options);
+    public function __invoke(string $name, $options);
 }

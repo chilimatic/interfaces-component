@@ -14,5 +14,5 @@ interface IFlyWeightParser
      *
      * @return mixed
      */
-    public function parse($content);
+    public function parse(string $content);
 }

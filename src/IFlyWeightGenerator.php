@@ -20,7 +20,7 @@ interface IFlyWeightGenerator
      * @param string $command
      * @param mixed $exitCode // defines a exit sequence
      */
-    public function __construct($resource, $command, $exitCode = null);
+    public function __construct($resource,string $command, $exitCode = null);
 
     /**
      * @return mixed

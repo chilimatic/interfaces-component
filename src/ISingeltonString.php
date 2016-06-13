@@ -15,5 +15,5 @@ interface ISingeltonString
      *
      * @return mixed
      */
-    public static function getInstance($param = '');
+    public static function getInstance(string $param = '');
 }
